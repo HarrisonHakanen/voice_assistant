@@ -30,13 +30,14 @@ Certifique-se de ter instalados os seguintes pacotes no seu sistema (exemplo par
 ```bash
 sudo apt update
 sudo apt install python3-pip python3-dev libasound-dev ffmpeg
-
+```
 
 ### 3. Ambiente virtual (opcional, mas recomendado)
 
+```python
 python3 -m venv venv
 source venv/bin/activate
-
+```
 
 ## Downloads necessários
 
@@ -71,7 +72,7 @@ python seu_arquivo.py
 Fale algo em inglês. O assistente irá transcrever, gerar uma resposta e responder com áudio.
 Comandos especiais
 
-    Diga "exit", "quit" ou "stop" para encerrar o assistente.
+Diga "exit", "quit" ou "stop" para encerrar o assistente.
 
 
 ### Personalização
